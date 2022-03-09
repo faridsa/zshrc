@@ -44,5 +44,11 @@ alias myip='curl http://ipecho.net/plain; echo'
 alias reload='source ~/.zshrc'
 alias h='history -E'
 alias cs='~/.composer/vendor/bin/php-cs-fixer fix app'
+alias info='neofetch'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
